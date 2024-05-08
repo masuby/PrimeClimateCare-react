@@ -1,0 +1,118 @@
+.large-box {
+    width: 100%;
+    display: flex;
+    background: blue;
+    height: 500px;
+    background: url("../../Assets/world on hand.png");
+    background-size: cover;
+    padding: 30px, 30px,30px;
+  }
+  .full-box {
+    width: 100%;
+    display: flex;
+    background: url("../../Assets/background.jpeg");
+    height: 500px;
+    align-content: space-between;
+  }
+  .small-box{
+    display: flex;
+    background: transparent;
+    background-size: cover;
+    margin: 10px; /* Adjust as needed for spacing between sub-boxes */
+    padding: 20px;
+    height: 450px;
+    width: 100%;
+    max-width: 500px;
+    align-items: flex-end;
+  }
+
+  .small-box h1{
+      color: #f0f0f0;
+  }
+  
+  .mini-box1 {
+    flex: 1;
+    background: url("../../Assets/event.png");
+    width: 100%;
+    max-width: 430px;
+    height: 400px;
+    align-content: flex-end;
+    margin: 10px;
+  }
+  .mini-box1 p{
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+  }
+  .sub-box1{
+    width: 100%;
+    height: 25%;
+    background: rgba(7, 17, 12, 0.882);
+  }
+  .sub-box2{
+    width: 100%;
+    height: 25%;
+    background: rgba(7, 17, 12, 0.882);
+  }
+  .sub-box3{
+    width: 100%;
+    height: 25%;
+    background: rgba(7, 17, 12, 0.882);
+  }
+
+  .mini-box2 {
+    flex: 1;/* Adjust as needed for spacing between sub-boxes */
+    background: url("../../Assets/meeting.png");
+    height: 400px;
+    align-content: flex-end;
+    width: 100%;
+    max-width: 430px;
+    margin: 10px;
+  }
+
+  .mini-box3 {
+    flex: 1;
+    background:url("../../Assets/kawe.png");
+    height: 400px;
+    align-content: flex-end;
+    width: 100%;
+    max-width: 430px;
+    margin: 10px;
+  }
+
+  .full-box ul{
+    font-size: 15px;
+    font-weight: 800;
+    color: antiquewhite;
+  }
+
+@media screen  and (max-width:750px){
+  .full-box{
+    flex-direction: column;
+    height: 1000px;
+  }
+
+
+  
+  .mini-box1 {
+    flex-direction: column;
+    width: 100%;
+    max-width: 700px;
+    height: 700px;
+  }
+
+  .mini-box2 {
+    flex-direction: column;
+    width: 100%;
+    max-width: 700px;
+    height: 700px;
+  }
+
+  .mini-box3 {
+    flex-direction: column;
+    width: 100%;
+    max-width: 700px;
+    height: 700px;
+  }
+}
+  

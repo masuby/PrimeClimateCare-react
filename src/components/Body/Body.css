@@ -1,0 +1,461 @@
+.body-container{
+  background-image: url("../../Assets/background2.jpeg");
+  background-size: cover;
+}
+
+.container-box1{
+    display: flex;
+    background: url("../../Assets/background.jpeg");
+    height: 500px;
+    align-items: center;
+    align-content: center;
+    background-size: cover;
+    border-radius: 10px;
+    flex-direction: column;
+    margin: 30px;
+  }
+  .container-box1 h1{
+  padding: 15%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: antiquewhite;
+  }
+  .body-container h1{
+    color: white;
+    font: optional;
+    font-size: 45px;
+  }
+
+  .body-container h3{
+  color: white;
+  text-align: justify;
+  }
+
+  .container-box2{
+    display: flex;
+    background: transparent;
+    height: 320px;
+    margin-bottom: 0rem;
+  }
+  .container-box3{
+    display: flex;
+    background: transparent;
+    height: 450px;
+    margin-bottom: 1rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-box4{
+    display: flex;
+    background: transparent;
+    height: 500px;
+    margin-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .box-1 {
+    display: flex; /* Allow flex items to wrap to the next row */
+    padding: 10px;
+    margin: 10px;
+    flex: 1; 
+  }
+  
+  .box-2 {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    width: 95%;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .box-3{
+    padding: 10px;
+    background:transparent;
+    align-content: center;
+    display: flex;
+  }
+  .box-4{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    align-content: center;
+    align-items: center;
+  }
+  .sub-box {
+    width: 50%; /* Set width to 50% of the parent container */
+    height: 400px;
+    margin: 5px;
+    display: flex;
+   flex-direction: column;
+   background-color: rgba(4, 12, 7, 0.603);
+   border-radius: 10px;
+  }
+  .sub-box ul{
+    color: antiquewhite;
+    text-align: justify;
+  }
+
+  
+  .mission{
+    display: flex;
+    width: 50%;
+    max-width: 635px;
+    height: 400px;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-color: rgba(6, 12, 6, 0.548);
+    margin: 5px;
+    flex-direction: column;/* Add transition property */
+    border-radius: 10px;
+    align-items: flex-start;
+    align-content: flex-start;
+  }
+
+  .vision{
+    width: 50%;
+    max-width: 635px;
+    height: 400px;
+    background-color: rgba(6, 12, 6, 0.548);
+    margin: 5px;
+    display: flex;
+    flex-direction: column;/* Add transition property */
+    border-radius: 10px;
+  }
+  .netspace{
+    display: flex;
+    width: 100%;
+    max-width: 635px;
+    height: 400px;
+    background-image: url("../../Assets/netspace.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(11, 14, 9, 0.521);
+    margin: 5px;
+    flex-direction: column;/* Add transition property */
+    border-radius: 10px;
+    align-content: flex-start;
+    background-position-y: bottom;
+  }
+
+  .zipa{
+    width: 100%;
+    max-width: 635px;
+    height: 400px;
+    background-color: rgba(11, 14, 9, 0.521);
+    margin: 5px;
+    display: flex;
+    flex-direction: column;/* Add transition property */
+    border-radius: 10px;
+  }
+
+
+  .sub-box.clicked {
+    transform: scale(5.0); /* Apply scale transformation on click */
+  }
+  
+  .background {
+    height: 100%;
+    width: 100%;
+    float: left;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: none;
+    position: relative;
+    object-fit: cover;
+    z-index: 0;
+  }
+  
+  .background-v {
+    height: 100%;
+    width: 100%;
+    float: left;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: none;
+    position: fixed;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  
+  .text-container h1 {
+    font-weight: 1000;
+  }
+  
+@keyframes fadeIn{
+        from {opacity: 0;}
+        to {opacity: 1;}
+        
+    }
+    .fade-in{
+        animation: fadeIn 500ms ease-in-out;
+    }
+
+    .prime:hover {
+      filter: drop-shadow(0 0 2em #61dafbaa);
+    }
+
+  @media screen  and (max-width:1000px){
+    .container-box1 {
+      flex-direction: row;
+      height: 500px;
+      align-items: center;
+      align-content: center;
+
+    }
+    .container-box2 {
+      flex-direction: row;
+      height: 430px;
+    }
+    .container-box3 {
+      flex-direction: row;
+      height: 500px;
+    }
+    .container-box4 {
+      flex-direction: row;
+      height: 500px;
+
+    }
+    .box-1{
+      flex-direction: row;
+  
+    }
+    .box-2 {
+      flex-direction: row;
+
+    }
+    .box-3{
+      flex-direction: row;
+
+    }
+    .box-4{
+      flex-direction: row;
+
+    }
+    .sub-box {
+      width: 50%; /* Set width to 50% of the parent container */
+      max-width: 300px; /* Set maximum width to 300px */
+      height: 400px;
+    }
+    
+    .mission{
+      display: flex;
+      width: 50%;
+      max-width: 400px;
+      height: 400px;
+      margin: 5px;
+    }
+    .vision{
+      display: flex;
+      width: 50%;
+      max-width: 400px;
+      height: 400px;
+      margin: 5px;
+
+    }
+    .netspace{
+      display: flex;
+      width: 50%;
+      max-width: 400px;
+      height: 400px;
+      margin: 5px;
+    }
+  
+    .zipa{
+      display: flex;
+      width: 50%;
+      max-width: 400px;
+      height: 400px;
+      margin: 5px;
+    }
+    
+  }
+ 
+  @media screen  and (max-width:750px){
+    .container-box1 {
+      flex-direction: row;
+      height: 500px;
+      align-items: center;
+      align-content: center;
+    }
+    .body-container h1{
+      color: white;
+      font: optional;
+      font-size: 35px;
+    }
+  
+    .container-box2 {
+      flex-direction: row;
+      height: 1600px;
+    }
+    .container-box3 {
+      flex-direction: row;
+      height: 900px;
+    }
+    .container-box4 {
+      flex-direction: row;
+      height: 1600px;
+    }
+    .box-1{
+      flex-direction: column;
+  
+    }
+    .box-2 {
+      flex-direction: column;
+    }
+    .box-3{
+      flex-direction: column;
+    }
+    .box-4{
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+    }
+    .sub-box {
+      width: 100%; /* Set width to 50% of the parent container */
+      max-width: 700px; /* Set maximum width to 300px */
+      height: 400px;
+    }
+    
+    .mission{
+      display: flex;
+      width: 100%;
+      max-width: 700px;
+      height: 400px;
+      margin: 5px;
+    }
+    .vision{
+      display: flex;
+      width: 100%;
+      max-width: 700px;
+      height: 400px;
+      margin: 5px;
+
+    }
+    .netspace{
+      display: flex;
+      width: 100%;
+      max-width: 700px;
+      height: 400px;
+      margin: 5px;
+    }
+    .zipa{
+      display: flex;
+      width: 100%;
+      max-width: 700px;
+      height: 400px;
+      margin: 5px;
+
+    }
+    
+  }
+
+  @media screen  and (max-width:500px){
+    .container-box1 {
+      flex-direction: column;
+      height: 500px;
+      padding: 30%;
+    }
+    .body-container h1{
+      color: white;
+      font: optional;
+      font-size: 25px;
+      text-align: center;
+      padding-bottom: 20px;
+    }
+  
+    .container-box1 h3{
+      padding: 40%;
+    }
+    .container-box2 {
+      flex-direction: column;
+      height: 1600px;
+    }
+    .container-box3 {
+      flex-direction: column;
+      height: 900px;
+    }
+    .container-box4 {
+      flex-direction: column;
+      height: 1600px;
+    }
+
+    .box-1{
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+  
+    }
+
+    .box-2 {
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+    }
+    .box-3{
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+
+    }
+    .box-4{
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+    }
+    .sub-box {
+      width: 100%; /* Set width to 50% of the parent container */
+      max-width: 500px; /* Set maximum width to 300px */
+
+    }
+    
+    .netspace{
+      display: flex;
+      width: 100%;
+      max-width: 500px;
+      height: 400px;
+      margin: 5px;
+    }
+    .zipa{
+      display: flex;
+      width: 100%;
+      max-width: 500px;
+      height: 400px;
+      margin: 5px;
+
+    }
+    .work-with1{
+      display: flex;
+      width: 100%;
+      max-width: 500px;
+      height: 400px;
+      margin: 5px;
+    }
+    .work-with2{
+      display: flex;
+      width: 100%;
+      max-width: 500px;
+      height: 400px;
+      margin: 5px;
+
+    }
+    
+  }
+
+    
+    

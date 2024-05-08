@@ -1,0 +1,127 @@
+.container-subscribe {
+    display: flex;
+    flex-direction: column;
+    margin: none;
+    background-color: rgb(20, 18, 18);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    margin-bottom: 0rem;
+  }
+.header-subscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: 150px;
+    align-items: center;
+    margin-top: 30px;
+}
+.text-subscribe{
+    font-size: 30px;
+    font-weight: 700;
+    color:white;
+    padding: 20px,30px,0px,0px;
+}
+
+.input-subscribe{
+    display: flex;
+    align-items: row;
+    margin: auto;
+    width: 600px;
+    height: 55px;
+    background-color: rgb(20, 18, 18);
+    border-radius: 20px;
+    justify-content: center;
+    padding-left: 0px;
+}
+
+.input-subscribe input{
+    width: 800px;
+    height: 50px;
+    background: #333;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 55px;
+    color: white;
+    background: brown;
+    border-radius: 20px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+@media screen  and (max-width:850px){
+    .container-subscribe{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header-subscribe{
+        flex-direction: row;
+    }
+    .input-subscribe{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 60px;
+        width: 500px;
+    }
+    .input-subscribe input{
+        width: 400px;
+        height: 60px;
+    }
+}
+
+@media screen  and (max-width:550px){
+    .container-subscribe{
+        flex-direction: column;
+    }
+    .header-subscribe{
+        flex-direction: column;
+    }
+    .input-subscribe{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 400px;
+        height: 60px;
+    }
+    .input-subscribe input{
+        width: 400px;
+        height: 60px;
+    }
+
+}
+
+@media screen  and (max-width:400){
+    .container-subscribe{
+        flex-direction: column;
+    
+    }
+    .header-subscribe{
+        flex-direction: column;
+    }
+    .input-subscribe{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 60px;
+    }
+    .input-subscribe input{
+        width: 400px;
+        height: 60px;
+    }
+}
