@@ -16,7 +16,7 @@ const Newsletter = () => {
   async function register() {
     event.preventDefault();
     try {
-      await axios.post("http://localhost:8090/api/v1/member/save", {
+      await axios.post("http://209.97.154.49:8090/api/v1/member/save", {
         memberName: memberName,
         email: email,
         phoneNumber: phoneNumber,
