@@ -97,7 +97,7 @@ const Body = () => {
       <ul><h1>Team Members</h1></ul>
       <div class="container-box4">
         <div class="box-3">
-          <div class="sub-box">
+          <div class="sub-box11">
             <ul>Nengai Godfrey</ul>
             <ul> A climate scientist with a Bachelors degree in Meteorology. 
             Passionate about solving the problems exercebated by Climate 
@@ -106,19 +106,13 @@ const Body = () => {
             climate researches as the the necessary actions towards 
             addressing Climate Change.</ul>
           </div>
-          <div class="sub-box">
+          <div class="sub-box22">
             <ul>Delphina Thobias Gwajekale</ul>
             <ul> An accomplished meteorologist with a Bachelor 
             of Science degree in Meteorology, fluent in English 
             and Kiswahili.</ul>
           </div>
-          <div class="sub-box">
-            <ul>Tidoson Cleophace</ul>
-            <ul>A professional with expertise in geography and environmental
-             studies, holding a Bachelor of Arts degree, specializing in data 
-             collection, GIS applications, and project planning.</ul>
-          </div>
-          <div class="sub-box">
+          <div class="sub-box33">
             <ul>Stadius Stephen Mtalemwa</ul>
             <ul> An accomplished professional with a Bachelor of Science 
             degree in Meteorology, skilled in data collection, statistical analysis, and programming.</ul>
